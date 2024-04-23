@@ -12,9 +12,7 @@
 
   outputs = {
     self,
-    nixpkgs,
     nix-darwin,
-    home-manager,
     ...
   } @ inputs: let
     inherit (self) outputs;
@@ -24,6 +22,5 @@
         modules = [./nix-darwin/configuration.nix];
       };
     };
-
   };
 }
