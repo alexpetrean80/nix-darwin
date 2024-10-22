@@ -5,6 +5,8 @@
       slack
       dbeaver
       pinentry_mac
+      google-cloud-sdk
+      kubernetes-helm
     ])
     ++ (with pkgs.darwin; [ cf-private ]);
 
